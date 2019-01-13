@@ -1,2 +1,2 @@
 web: gunicorn DaiRest.wsgi --log-file -
-
+web: scale=1
