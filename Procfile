@@ -1,1 +1,1 @@
-web: gunicorn DaiRest.wsgi
+web: gunicorn DaiRest.wsgi:application --log-file -
