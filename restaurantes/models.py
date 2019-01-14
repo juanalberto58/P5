@@ -5,7 +5,7 @@ from django.db import models
 # Create your models here.
 
 
-client = MongoClient('localhost',27017)
+client = MongoClient('https://dairest1.herokuapp.com/',27017)
 
 mongo = client['Restaurants']
 restaurantes= mongo['RestaurantsCollection']
